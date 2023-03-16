@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yalci\\Desktop\\Turkcell\\.Net\\switchCase\\switchCase\\switchCase.csproj",
+      "projectUniqueName": "C:\\Users\\yalci\\Desktop\\Turkcell\\.Net\\Basics\\switchCase\\switchCase\\switchCase.csproj",
       "projectName": "switchCase",
-      "projectPath": "C:\\Users\\yalci\\Desktop\\Turkcell\\.Net\\switchCase\\switchCase\\switchCase.csproj",
+      "projectPath": "C:\\Users\\yalci\\Desktop\\Turkcell\\.Net\\Basics\\switchCase\\switchCase\\switchCase.csproj",
       "packagesPath": "C:\\Users\\yalci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yalci\\Desktop\\Turkcell\\.Net\\switchCase\\switchCase\\obj\\",
+      "outputPath": "C:\\Users\\yalci\\Desktop\\Turkcell\\.Net\\Basics\\switchCase\\switchCase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

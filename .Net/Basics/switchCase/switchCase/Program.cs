@@ -38,6 +38,8 @@ switch (symbol)
     case "Sinek" or "Maça":
         Console.WriteLine("Siyah renk");
         break;
+
+    //asagidaki case birlestirme
     case "Karo":
     case "Kupa":
         Console.WriteLine("Kırmızı renk");
