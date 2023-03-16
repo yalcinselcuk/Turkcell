@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\.Net",
-    "\\.Net\\Basics"
+    "\\.Net\\Basics",
+    "\\.Net\\Basics\\switchCase",
+    "\\.Net\\Basics\\switchCase\\switchCase"
   ],
+  "SelectedNode": "\\.Net\\Basics\\switchCase\\switchCase\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
