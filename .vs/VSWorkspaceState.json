@@ -3,9 +3,10 @@
     "",
     "\\.Net",
     "\\.Net\\Basics",
-    "\\.Net\\Basics\\switchCase",
+    "\\.Net\\Basics\\Arrays",
+    "\\.Net\\Basics\\Arrays\\Arrays",
     "\\.Net\\Basics\\switchCase\\switchCase"
   ],
-  "SelectedNode": "\\.Net\\Basics\\switchCase\\switchCase\\Program.cs",
+  "SelectedNode": "\\.Net\\Basics\\Arrays\\Arrays\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
