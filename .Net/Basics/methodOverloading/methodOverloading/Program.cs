@@ -17,6 +17,10 @@ var optionalTriangle = geometry.AlternativeGetArea(3, unit2: 20, geometry: "Üç
 var optionalTriangle2 = geometry.AlternativeGetArea(unit1: 3,
                                                    geometry: "Üçgen",
                                                    unit2: 15);
+Console.WriteLine(optionalSquare);
+Console.WriteLine(optionalCircle);
+Console.WriteLine(optionalTriangle);
+Console.WriteLine(optionalTriangle2);
 
 var optional3 = geometry.AlternativeGetArea(triangleUnit, triangleHeight, geo);
 

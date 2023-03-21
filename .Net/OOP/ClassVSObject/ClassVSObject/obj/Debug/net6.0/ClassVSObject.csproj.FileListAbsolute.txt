@@ -1,0 +1,15 @@
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\bin\Debug\net6.0\ClassVSObject.exe
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\bin\Debug\net6.0\ClassVSObject.deps.json
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\bin\Debug\net6.0\ClassVSObject.runtimeconfig.json
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\bin\Debug\net6.0\ClassVSObject.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\bin\Debug\net6.0\ClassVSObject.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\obj\Debug\net6.0\ClassVSObject.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\obj\Debug\net6.0\ClassVSObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\obj\Debug\net6.0\ClassVSObject.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\obj\Debug\net6.0\ClassVSObject.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\obj\Debug\net6.0\ClassVSObject.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\obj\Debug\net6.0\ClassVSObject.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\obj\Debug\net6.0\refint\ClassVSObject.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\obj\Debug\net6.0\ClassVSObject.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\obj\Debug\net6.0\ClassVSObject.genruntimeconfig.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\ClassVSObject\ClassVSObject\obj\Debug\net6.0\ref\ClassVSObject.dll
