@@ -31,5 +31,20 @@ namespace Encapsulation
 
         //ustteki de eski kaldi, artik yeni hali ;
         public int Stock { get; set; }
+
+        //public bool IsInStock{ get; private set; }
+        //boyle yaparsak readonly olur, deger atanamaz
+        //ya da tek get birakilirsa da readonly olur
+        //ama bu kez hicbir yerde set edilemez
+
+
+        public bool IsInStock
+        {
+            get
+            {
+                /*buraya get'in sartini yazariz*/
+                return Stock > 50;
+            }
+        }
     }
 }
