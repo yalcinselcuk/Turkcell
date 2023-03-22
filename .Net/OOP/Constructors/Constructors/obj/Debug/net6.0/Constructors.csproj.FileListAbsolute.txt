@@ -1,0 +1,15 @@
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\bin\Debug\net6.0\Constructors.exe
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\bin\Debug\net6.0\Constructors.deps.json
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\bin\Debug\net6.0\Constructors.runtimeconfig.json
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\bin\Debug\net6.0\Constructors.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\bin\Debug\net6.0\Constructors.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\obj\Debug\net6.0\Constructors.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\obj\Debug\net6.0\Constructors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\obj\Debug\net6.0\Constructors.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\obj\Debug\net6.0\Constructors.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\obj\Debug\net6.0\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\obj\Debug\net6.0\Constructors.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\obj\Debug\net6.0\refint\Constructors.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\obj\Debug\net6.0\Constructors.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\obj\Debug\net6.0\Constructors.genruntimeconfig.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\Constructors\Constructors\obj\Debug\net6.0\ref\Constructors.dll
