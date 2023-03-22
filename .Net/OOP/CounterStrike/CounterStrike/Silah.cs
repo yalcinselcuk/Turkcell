@@ -20,7 +20,8 @@ namespace CounterStrike
             Console.WriteLine($"Düşmana saldırılıyor, {Ad} ile {Hasar} kadar hasar verildi.");
         }
 
-        public virtual void AtakHazirla()
+        //virtual : override edilecek metod
+        public virtual void AtakHazirla()//polimorfizm edilecek metod : override - overloading
         {
             Console.WriteLine("Bıçağı dik konuma getir");
         }
