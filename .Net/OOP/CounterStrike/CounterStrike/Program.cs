@@ -11,6 +11,7 @@ oyuncu.OyuncununSilahi = desertEagle;
 oyuncu.Saldir();
 oyuncu.SarjorDegistir();
 oyuncu.SagTikla();
+
 oyuncu.OyuncununSilahi = ak47;
 oyuncu.Saldir();
 oyuncu.SarjorDegistir();
