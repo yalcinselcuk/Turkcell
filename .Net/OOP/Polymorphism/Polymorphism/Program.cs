@@ -5,4 +5,7 @@ Console.WriteLine("Hello, World!");
 
 Asci asci = new Asci();
 asci.Pisir(new Baklava());
-asci.Pisir(new Kurufasulye{ Ad = "Kuru Fasulye" }) ;
+
+//bu yazilis sekli ne kadar dogru?
+//yoksa direk new'i acikca mi yazmaliyim?
+asci.Pisir(new Kurufasulye(){ Ad = "Kuru Fasulye" }) ;
