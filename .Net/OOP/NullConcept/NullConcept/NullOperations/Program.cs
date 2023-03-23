@@ -3,7 +3,7 @@ Console.WriteLine("Hello, World!");
 
 //boxing: Bir kutunun içerisine bir değer koymaktır. 
 //object : butun tiplerin atasidir
-
+//asagidaki object uzerinde yapilan islemler boxing
 object o = "Bir nesne";
 o = 9;
 o = false;
@@ -64,7 +64,7 @@ public class Address
 
     public override bool Equals(object? obj)
     {
-        Address? that = (Address?)obj;
+        Address? that = (Address?)obj;//unboxing
         return City.Equals(that?.City);
     }
 
