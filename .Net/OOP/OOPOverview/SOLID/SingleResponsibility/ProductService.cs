@@ -14,15 +14,21 @@ namespace SingleResponsibility
     {
         public int AddProduct(string name, decimal price)
         {
-            SqlConnection sqlConnection = new SqlConnection("Data Source=LAPTOP-818NV7UV;Initial Catalog=deneme;Integrated Security=True");
-            SqlCommand sqlCommand = new SqlCommand("Insert into Products (ProductName, UnitPrice) values (@name, @price)", sqlConnection);
-            sqlCommand.Parameters.AddWithValue("@name", name);
-            sqlCommand.Parameters.AddWithValue("@price", price);
+            //Environment Values olmali (disaridan okumali) 
+            string connectionString = "Data Source=LAPTOP-818NV7UV;Initial Catalog=deneme;Integrated Security=True";
+            string commandText = "Insert into Products (ProductName, UnitPrice) values (@name, @price)";
+            
+            //bunlari dictionary icinde birlestirmemiz lazim
+            Dictionary<string, object> parameters = new Dictionary<string, object>();
+            
+            parameters.Add("@name", name);
+            parameters.Add("@price", price);
+            
             //buradaki parametreler de Form1'deki tool'larla direk islem yapmayacak
 
-            sqlConnection.Open();
-            var affectedRows = sqlCommand.ExecuteNonQuery();
-            sqlConnection.Close();
+            DataAccess dataAccess = new DataAccess(connectionString);
+            var affectedRows = dataAccess.ExecuteNonQuery(commandText, parameters);
+
             return affectedRows;
         }
 
