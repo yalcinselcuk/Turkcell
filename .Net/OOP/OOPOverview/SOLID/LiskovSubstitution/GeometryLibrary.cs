@@ -32,6 +32,9 @@ namespace LiskovSubstitution
     {
         public override int Height { get => base.Height; set { base.Height = value; base.Width = value; } }
         public override int Width { get => base.Width; set { base.Height = value; base.Width = value; } }
+        //ayrica belirtilen "GELEN OZELLİK AYNI SEKİLDE KULLANİLMALİDİR" prensibi de ihlal edildi
+        //super class'ta nasil tanimlandiysa sub class'ta da oyle kullanilmali
+        //override edilmemesi gerekir
     }
 
 }
