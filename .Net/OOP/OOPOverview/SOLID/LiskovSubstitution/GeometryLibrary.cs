@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace LiskovSubstitution
 {
-    public class GeometryLibrary
+    public static class GeometryLibrary
     {
-        public Rectangle RectangleFactory()
+        public static Rectangle RectangleFactory()
         {
             // sonradan bir sekilde Square dondurmeye karar verdiniz...
-            return null;
+            return new Square();
         }
     }
 
