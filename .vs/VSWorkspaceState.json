@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\.Net",
-    "\\.Net\\Basics\\Arrays",
-    "\\.Net\\Basics\\Arrays\\Arrays"
+    "\\.Net\\OOP",
+    "\\.Net\\OOP\\OOPOverview",
+    "\\.Net\\OOP\\OOPOverview\\ConsoleApp1",
+    "\\.Net\\OOP\\OOPOverview\\ConsoleApp1\\ConsoleApp1"
   ],
+  "SelectedNode": "\\.Net\\OOP\\OOPOverview\\ConsoleApp1\\ConsoleApp1\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
