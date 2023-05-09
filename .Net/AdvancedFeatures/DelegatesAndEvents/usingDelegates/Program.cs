@@ -11,6 +11,10 @@ showNumbers(filtered1);
 showNumbers(filtered2);
 //biz delegate'e metod yazıp göndermiş olduk metod içinde
 
+//.net 3.5, yıl 2008 ve sonrası
+var filtered3 = helper.Filter(numbers, p => p > 5); //lambda operatörü ile yaptık
+showNumbers(filtered3);
+
 
 
 
