@@ -15,8 +15,9 @@ showNumbers(filtered2);
 var filtered3 = helper.Filter(numbers, p => p > 5); //lambda operatörü ile yaptık
 showNumbers(filtered3);
 
-
-
+//.net 4.0'dan sonra
+// microsoft dedi ki sen artık delegate yazma. Ben senin yerine Generic Metod oluşturdum, onu kullan
+alternateShowNumbers(filtered3);
 
 void showNumbers(List<int> filtered1)
 {
@@ -26,6 +27,10 @@ void showNumbers(List<int> filtered1)
     }
 }
 
+void alternateShowNumbers(List<int> numbers)
+{
+    numbers.ForEach(n => Console.WriteLine(n));//action olusturuldu
+}
 bool isEven(int number)
 {
     return number % 2 == 0;

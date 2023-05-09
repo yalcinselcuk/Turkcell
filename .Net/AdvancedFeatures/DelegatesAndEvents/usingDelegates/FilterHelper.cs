@@ -9,8 +9,8 @@ namespace usingDelegates
     public class FilterHelper
     {
         //ilan verildi
-        public delegate bool criteria(int item);
-        public List<int> Filter(List<int> numbers, criteria aday)
+        //public delegate bool criteria(int item);
+        public List<int> Filter(List<int> numbers, Func<int,bool> aday)
         {
             List<int> filtered = new();
             foreach (int number in numbers)
