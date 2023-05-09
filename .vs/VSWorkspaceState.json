@@ -4,9 +4,9 @@
     "\\.Net",
     "\\.Net\\OOP",
     "\\.Net\\OOP\\OOPOverview",
-    "\\.Net\\OOP\\OOPOverview\\ConsoleApp1",
-    "\\.Net\\OOP\\OOPOverview\\ConsoleApp1\\ConsoleApp1"
+    "\\.Net\\OOP\\OOPOverview\\SOLID",
+    "\\.Net\\OOP\\OOPOverview\\SOLID\\OpenClosed"
   ],
-  "SelectedNode": "\\.Net\\OOP\\OOPOverview\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+  "SelectedNode": "\\.Net\\OOP\\OOPOverview\\SOLID\\OpenClosed\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
