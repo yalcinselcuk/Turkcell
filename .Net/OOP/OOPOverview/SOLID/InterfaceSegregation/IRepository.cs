@@ -35,7 +35,12 @@ namespace InterfaceSegregation
         public string Name { get; set; }
     }
 
-    public class ProductRepository : IRepository<Product>
+    public interface IProductRepository : IRepository<Product> 
+    {
+        IEnumerable<Product> GetProductsByName(string name);
+    }  
+
+    public class ProductRepository : IProductRepository
     {
         public void Add(Product entity)
         {
@@ -53,6 +58,11 @@ namespace InterfaceSegregation
         }
 
         public IEnumerable<Product> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Product> GetProductsByName(string name)
         {
             throw new NotImplementedException();
         }
