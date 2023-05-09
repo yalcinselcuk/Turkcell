@@ -6,7 +6,7 @@ bu işlemi yapmak için kullanacağımız metod dışarıdan gelen bir kütüpha
 
 bizim yazdığımız şartı yani metodu dışarıdan aldığımız kütüphanenin içindeki metodta kullanmak için delegate kullanılır
 
-Delegate;
-        değer döndürüyorsa : Func
-        değer döndürmüyorsa : Action
-                                    delegate'leri kullanılabilir.
+Delegate;<br/>
+değer döndürüyorsa : Func <br/>
+değer döndürmüyorsa : Action<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; delegate'leri kullanılabilir.
