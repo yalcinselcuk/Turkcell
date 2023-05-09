@@ -19,7 +19,6 @@ namespace InterfaceSegregation
         void Add(T entity);
         void Update(T entity);
         void Delete(int id);
-        IEnumerable<T> GetItemsByName(string name);
 
     }
 
@@ -58,11 +57,6 @@ namespace InterfaceSegregation
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Product> GetItemsByName(string name)
-        {
-            throw new NotImplementedException();
-        }
-
         public void Update(Product entity)
         {
             throw new NotImplementedException();
@@ -90,11 +84,6 @@ namespace InterfaceSegregation
             throw new NotImplementedException();
         }
 
-        //bu metodu kullanamayız burada, product'a ozgu
-        public IEnumerable<Category> GetItemsByName(string name)
-        {
-            throw new NotImplementedException();
-        }
 
         public void Update(Category entity)
         {
