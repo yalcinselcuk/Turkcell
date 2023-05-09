@@ -5,3 +5,8 @@ bu işlemi yapmak için kullanacağımız metod dışarıdan gelen bir kütüpha
 şartı yani metodu da class'ımızın içine biz yazdık
 
 bizim yazdığımız şartı yani metodu dışarıdan aldığımız kütüphanenin içindeki metodta kullanmak için delegate kullanılır
+
+Delegate;
+        değer döndürüyorsa : Func
+        değer döndürmüyorsa : Action
+                                    delegate'leri kullanılabilir.
