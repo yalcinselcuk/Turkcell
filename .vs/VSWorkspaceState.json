@@ -2,12 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\.Net",
-    "\\.Net\\OOP",
-    "\\.Net\\OOP\\OOPOverview",
-    "\\.Net\\OOP\\OOPOverview\\SOLID",
-    "\\.Net\\OOP\\OOPOverview\\SOLID\\LiskovSubstitution",
-    "\\.Net\\OOP\\OOPOverview\\SOLID\\OpenClosed"
+    "\\.Net\\AdvancedFeatures",
+    "\\.Net\\AdvancedFeatures\\DelegatesAndEvents"
   ],
-  "SelectedNode": "\\.Net\\OOP\\OOPOverview\\SOLID\\SOLID.sln",
+  "SelectedNode": "\\.Net\\AdvancedFeatures\\DelegatesAndEvents\\DelegatesAndEvents.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,15 @@
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\bin\Debug\net6.0\usingDelegates.exe
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\bin\Debug\net6.0\usingDelegates.deps.json
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\bin\Debug\net6.0\usingDelegates.runtimeconfig.json
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\bin\Debug\net6.0\usingDelegates.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\bin\Debug\net6.0\usingDelegates.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\obj\Debug\net6.0\usingDelegates.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\obj\Debug\net6.0\usingDelegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\obj\Debug\net6.0\usingDelegates.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\obj\Debug\net6.0\usingDelegates.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\obj\Debug\net6.0\usingDelegates.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\obj\Debug\net6.0\usingDelegates.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\obj\Debug\net6.0\refint\usingDelegates.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\obj\Debug\net6.0\usingDelegates.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\obj\Debug\net6.0\usingDelegates.genruntimeconfig.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\usingDelegates\obj\Debug\net6.0\ref\usingDelegates.dll
