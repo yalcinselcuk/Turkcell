@@ -1,0 +1,15 @@
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\bin\Debug\net6.0\DependencyInversion.exe
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\bin\Debug\net6.0\DependencyInversion.deps.json
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\bin\Debug\net6.0\DependencyInversion.runtimeconfig.json
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\bin\Debug\net6.0\DependencyInversion.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\bin\Debug\net6.0\DependencyInversion.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\obj\Debug\net6.0\DependencyInversion.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\obj\Debug\net6.0\DependencyInversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\obj\Debug\net6.0\DependencyInversion.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\obj\Debug\net6.0\DependencyInversion.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\obj\Debug\net6.0\DependencyInversion.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\obj\Debug\net6.0\DependencyInversion.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\obj\Debug\net6.0\refint\DependencyInversion.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\obj\Debug\net6.0\DependencyInversion.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\obj\Debug\net6.0\DependencyInversion.genruntimeconfig.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\OOP\OOPOverview\SOLID\DependencyInversion\obj\Debug\net6.0\ref\DependencyInversion.dll
