@@ -29,6 +29,14 @@ namespace LinqIntro
         public ProductService() 
         {
 
+            categories = new()
+            {
+                new(){Id = 1, Name = "Spor"},
+                new(){Id = 2, Name = "Giyim"},
+                new(){Id = 3, Name = "Kamp"},
+
+            };
+
             products = new() {
                 new(){Id = 1, Name = "Bisiklet", Description = "Spor Amaçlı", Price = 3000, Stock=150, Category= categories[0]},
                 new(){Id = 2, Name = "Dambıl Set", Description = "Spor Amaçlı", Price = 250, Stock=150, Category = categories[0]},
@@ -38,20 +46,9 @@ namespace LinqIntro
                 new(){Id = 6, Name = "Olta", Description = "Keyif Amaçlı", Price = 2500, Stock=15, Category = categories[2]},
                 new(){Id = 7, Name = "Eldiven", Description = "Spor Amaçlı", Price = 500, Stock=150, Category = categories[0]},
             };
-            categories = new()
-            {
-                new(){Id = 1, Name = "Spor"},
-                new(){Id = 2, Name = "Giyim"},
-                new(){Id = 3, Name = "Kamp"},
-
-            };
-
         }
 
-        public List<Product> GetProducts()
-        {
-            return products;
-            
-        }
+        public List<Product> GetProducts() { return products; }
+        public List<Category> GetCategories() { return categories; }
     }
 }

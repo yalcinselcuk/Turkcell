@@ -6,7 +6,8 @@
 using LinqIntro;
 using System.Diagnostics;
 
-var products = new ProductService().GetProducts();
+var service = new ProductService();
+var products = service.GetProducts();
 
 var anonymousType = new { Name = "Turkay", Age = 42 };
 var nameAndPriceList = from p in products
@@ -79,3 +80,42 @@ Console.WriteLine();
 //expensiveProduct.ForEach(x => Console.WriteLine($"en pahalı ürün \n ------ \n {x.Name}\t{x.Price}"));
 // expensiveProduct'ı FirstOrDefault yerine Where yazsaydık en sonuna ToList() yazmalıydık ve üstteki şekilde bastırırdık
 Console.WriteLine($"expensive product \n ------------- \n Ad : {expensiveProduct.Name} \t Fiyat : {expensiveProduct.Price}");
+
+//JOIN : iki koleksiyon bellekte birleştirilip ortak bir sonuç üretilecek
+/*
+    Products
+    Id   Name     CatId
+    -------------------
+    1    A           1
+    2    B           3
+ 
+    Categories
+    Id   Name
+    -----------
+    1    X
+    2    Y
+    3    Z
+
+    Output
+    1   A   X
+    2   B   Z
+
+ */
+var categories = service.GetCategories();
+var joinQuery = categories.Join(products,
+                                category => category,/*category'i al, product.category ile eşleştir*/
+                                product => product.Category,
+                                (category, product) => new { KategoriAdı = category.Name, Urun = product.Name }
+                                ).ToList();
+// parametreler : nereye bağlanacaksın, hangi iki nesne arasında eşleştirme yapacaksın, bu kesişim kümesinden ne istiyorsun
+joinQuery.ForEach(x => Console.WriteLine($"Urun : {x.Urun} \t Kategori : {x.KategoriAdı}"));
+
+//bunun alternatifi de şu ;
+Console.WriteLine();
+Console.WriteLine("Alternative Join");
+var join2 = products.Select(p => new {UrunAdi = p.Name, Kategorisi = p.Category?.Name }).ToList();//bu kod üsttekinin aynısı, join kullanmadan
+// üsttekiyle farkı kategorisi boş değilse yani bellekte varsa döndür dedik
+join2.ForEach(x => Console.WriteLine($"Urun : {x.UrunAdi} \t Kategori : {x.Kategorisi}"));
+
+//Group By
+
