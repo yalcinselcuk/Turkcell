@@ -1,0 +1,15 @@
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\bin\Debug\net6.0\LinqIntro.exe
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\bin\Debug\net6.0\LinqIntro.deps.json
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\bin\Debug\net6.0\LinqIntro.runtimeconfig.json
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\bin\Debug\net6.0\LinqIntro.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\bin\Debug\net6.0\LinqIntro.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\obj\Debug\net6.0\LinqIntro.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\obj\Debug\net6.0\LinqIntro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\obj\Debug\net6.0\LinqIntro.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\obj\Debug\net6.0\LinqIntro.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\obj\Debug\net6.0\LinqIntro.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\obj\Debug\net6.0\LinqIntro.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\obj\Debug\net6.0\refint\LinqIntro.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\obj\Debug\net6.0\LinqIntro.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\obj\Debug\net6.0\LinqIntro.genruntimeconfig.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\LINQ\LinqIntro\obj\Debug\net6.0\ref\LinqIntro.dll

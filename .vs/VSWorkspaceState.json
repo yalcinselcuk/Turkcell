@@ -3,8 +3,9 @@
     "",
     "\\.Net",
     "\\.Net\\AdvancedFeatures",
-    "\\.Net\\AdvancedFeatures\\DelegatesAndEvents"
+    "\\.Net\\AdvancedFeatures\\DelegatesAndEvents",
+    "\\.Net\\AdvancedFeatures\\DelegatesAndEvents\\Events"
   ],
-  "SelectedNode": "\\.Net\\AdvancedFeatures\\DelegatesAndEvents\\DelegatesAndEvents.sln",
+  "SelectedNode": "\\.Net\\AdvancedFeatures\\DelegatesAndEvents\\Events\\User.cs",
   "PreviewInSolutionExplorer": false
 }
