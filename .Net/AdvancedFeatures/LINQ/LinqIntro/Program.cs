@@ -118,4 +118,16 @@ var join2 = products.Select(p => new {UrunAdi = p.Name, Kategorisi = p.Category?
 join2.ForEach(x => Console.WriteLine($"Urun : {x.UrunAdi} \t Kategori : {x.Kategorisi}"));
 
 //Group By
-
+var group = products.GroupBy(pr => pr.Category?.Name,
+                                    result => new { result.Name, result.Price},
+                                    (category, products) => new
+                                    {
+                                        Key = category,
+                                        Adet = products.Count(),
+                                        EnUcuz = products.Min(p => p.Price),
+                                        EnPahalı = products.Max(p => p.Price),
+                                    }
+                                    ).ToList();//neye göre gruplanacak, grubun yanında ne istiyorsun ürünle ilgili, nasıl bir koleksiyon istiyorsun
+Console.WriteLine();
+Console.WriteLine("Group By");
+group.ForEach(x => Console.WriteLine($"Kategori : {x.Key} \t Adet : {x.Adet} \t En Ucuz : {x.EnUcuz} \t En Pahalı : {x.EnPahalı}"));
