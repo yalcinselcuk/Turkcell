@@ -61,5 +61,21 @@ Console.WriteLine($"6 nolu ürün : {product?.Name}"); // boş değilse kullan d
 Console.WriteLine();
 Console.WriteLine("Fiyata göre sıraladık");
 // ilk önce fiyata göre sıralayalım
-var ordered1 = products.OrderBy(p => p.Price).ToList();
+var ordered1 = products.OrderBy(p => p.Price) //fiyatlar eşitse ThenByDescending çalışır
+                        .ThenByDescending(st => st.Stock) // burada da stok'a göre sıraladık
+                        .ToList();
 ordered1.ForEach(x => Console.WriteLine($"{x.Name}\t{x.Price}"));
+
+var averagePrice = products.Average(p => p.Price);
+Console.WriteLine($"Average price: {averagePrice}");
+
+var totalItem = products.Count(p => p.Description.Contains("Spor"));
+Console.WriteLine($"total item 'spor' : {totalItem}");
+
+
+// en pahalı ürün bulmak
+var expensiveProduct = products.FirstOrDefault(p => p.Price == products.Max(pr => pr.Price));
+Console.WriteLine();
+//expensiveProduct.ForEach(x => Console.WriteLine($"en pahalı ürün \n ------ \n {x.Name}\t{x.Price}"));
+// expensiveProduct'ı FirstOrDefault yerine Where yazsaydık en sonuna ToList() yazmalıydık ve üstteki şekilde bastırırdık
+Console.WriteLine($"expensive product \n ------------- \n Ad : {expensiveProduct.Name} \t Fiyat : {expensiveProduct.Price}");
