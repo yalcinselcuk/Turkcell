@@ -17,5 +17,41 @@ namespace ExtensionMethod
         {
             return value.Replace(" ","");
         }
+
+        public static string GetPasswordStrength(this string value)
+        {
+            bool includeLetter = false;
+            bool includeDigit = false;
+            bool includeSymbol = false;
+
+            value.ToCharArray().ToList().ForEach( c =>
+            {
+                if (char.IsLetter(c))
+                {
+                    includeLetter = true;
+                }
+                else if (char.IsDigit(c))
+                {
+                    includeDigit = true;
+                }
+                else
+                {
+                    includeSymbol = true;
+                }
+            });
+            string result = string.Empty;
+            if(includeLetter && includeDigit && includeSymbol) 
+            {
+                result = "Güçlü";
+            }else if(includeLetter && includeDigit && !includeSymbol)
+            {
+                result = "orta";
+            }
+            else
+            {
+                result = "zayıf";
+            }
+            return result;
+        }
     }
 }
