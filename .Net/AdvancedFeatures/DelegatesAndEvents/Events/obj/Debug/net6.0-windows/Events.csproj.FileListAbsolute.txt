@@ -1,0 +1,17 @@
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\bin\Debug\net6.0-windows\Events.exe
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\bin\Debug\net6.0-windows\Events.deps.json
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\bin\Debug\net6.0-windows\Events.runtimeconfig.json
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\bin\Debug\net6.0-windows\Events.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\bin\Debug\net6.0-windows\Events.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\Events.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\Events.Form1.resources
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\Events.csproj.GenerateResource.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\Events.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\Events.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\Events.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\Events.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\refint\Events.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\Events.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\Events.genruntimeconfig.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\DelegatesAndEvents\Events\obj\Debug\net6.0-windows\ref\Events.dll
