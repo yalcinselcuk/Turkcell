@@ -4,8 +4,10 @@
     "\\.Net",
     "\\.Net\\AdvancedFeatures",
     "\\.Net\\AdvancedFeatures\\DelegatesAndEvents",
-    "\\.Net\\AdvancedFeatures\\DelegatesAndEvents\\Events"
+    "\\.Net\\AdvancedFeatures\\DelegatesAndEvents\\Events",
+    "\\HTML-CSS-JS",
+    "\\HTML-CSS-JS\\IntroHTML"
   ],
-  "SelectedNode": "\\.Net\\AdvancedFeatures\\DelegatesAndEvents\\Events\\User.cs",
+  "SelectedNode": "\\HTML-CSS-JS\\IntroHTML\\index.html",
   "PreviewInSolutionExplorer": false
 }
