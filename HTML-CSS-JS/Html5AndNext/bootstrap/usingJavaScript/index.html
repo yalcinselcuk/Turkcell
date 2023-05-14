@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="year" type="text" placeholder="Doğum yılınızı giriniz "/>
+    <button onclick="calculateAge()">Tamam</button><br/>
+    <span id="result">0</span>
+    <!-- 
+        span aslında js ile yazılanları göstermek için vardır, yer tutucudur. 
+        biz kullanıcı doğum tarihini girdiğinde ekrana yaşını hesaplayıp yazmak istiyoruz 
+    -->
+
+    <script>
+        //butona tıklandığında yaşı hesaplayacak metodu yazıyoruz
+        function calculateAge(){
+            let birthYear  = document.getElementById("year").value;
+            if(isNaN(birthYear)){// isNana = eğer ki sayı girilmediyse
+                document.getElementById("result").innerText = "sayı girilecek alana sayı girmediniz";
+            }else{
+
+                let currentYear = 2023;
+                
+                let age = currentYear - birthYear;
+                let span = document.getElementById("result");
+                span.innerText = age;
+            }
+
+        }
+        //js çıktıları paragraf'ta gösterilmez, span'de gösterilir
+
+    </script>
+</body>
+</html>
