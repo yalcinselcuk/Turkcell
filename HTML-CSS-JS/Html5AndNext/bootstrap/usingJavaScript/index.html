@@ -15,6 +15,15 @@
         biz kullanıcı doğum tarihini girdiğinde ekrana yaşını hesaplayıp yazmak istiyoruz 
     -->
 
+    <legend>
+        <input type="text" name="" id="textName" placeholder="isim"/>
+        <button onclick="addItem()">Ekle</button><br/>
+
+        <ul id="list">
+
+        </ul>
+    </legend>
+
     <script>
         //butona tıklandığında yaşı hesaplayacak metodu yazıyoruz
         function calculateAge(){
@@ -33,6 +42,28 @@
 
         }
         //js çıktıları paragraf'ta gösterilmez, span'de gösterilir
+
+        var names = [];
+
+        function addItem(){
+            var name = document.getElementById("textName").value;
+            names.push(name);
+            showNameInList(names);
+            document.getElementById("textName").value = "";
+        }
+
+        function showNameInList(names){
+            var ul = document.getElementById("list");
+            ul.innerHTML=" ";//her seferinde okumadan önce ul'yi temizlemesini istedik
+            for (let index = 0; index < names.length; index++) {
+                const element = names[index];
+                var li = document.createElement("li");
+                li.innerText = element;
+                ul.append(li);
+            }
+            
+
+        }
 
     </script>
 </body>
