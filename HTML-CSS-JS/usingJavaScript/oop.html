@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="showEmployees()">Çalışanları göster!</button>
+    <div id="employeePlaceHolder"></div>
+
+    <script>
+        //JSON : JavaScript Object Notation
+        var personel = {
+            ad: "Turkay",
+            soyad: "Urkmez",
+            yas: 43
+        }
+        //aşağıdaki verilerin bir apiden geldiği varsayılsın 
+        var personeller = [
+            {
+                ad: "Turkay",
+                soyad: "Urkmez",
+                yas: 43
+            },
+            {
+                ad: "Turkay2",
+                soyad: "Urkmez2",
+                yas: 44
+            },
+            {
+                ad: "Turkay3",
+                soyad: "Urkmez3",
+                yas: 45
+            }
+        ]
+
+        function showEmployees() {
+            var table = document.createElement('table'); //tablo oluşturuldu
+            table.setAttribute('border', 1);
+
+            //forEach içinde fonksiyon çağırır
+            personeller.forEach(
+                function (employee, index) {
+                    console.log(employee, index); //generic list'ten aldığım json'ları döndürdük 
+                    var row = getEmployeeOnRow(employee);
+                    table.append(row);
+
+                }
+            );
+
+            document.getElementById('employeePlaceHolder').innerHTML = '';
+            document.getElementById('employeePlaceHolder').appendChild(table);
+        }
+        function getEmployeeOnRow(employee) {
+
+            var row = document.createElement('tr'); // satır oluşturuldu
+            var cellName = document.createElement('td'); // kolonlar yani sütunlar oluşturuldu
+            var cellLastName = document.createElement('td');
+            var cellAge = document.createElement('td');
+
+            cellName.innerText = employee.ad; // kolonlara isim verildi
+            cellLastName.innerText = employee.soyad;
+            cellAge.innerText = employee.yas;
+
+            row.appendChild(cellName); //satırlara eklendi
+            row.appendChild(cellLastName);
+            row.appendChild(cellAge);
+
+            return row;
+        }
+    </script>
+
+</body>
+
+</html>
