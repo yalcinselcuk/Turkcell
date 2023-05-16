@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="fetch" onclick="getMovieDetails()">Fetch ile getir</button>
+    <div>
+        <h3 id="title"></h3>
+        <p id="crawl"></p>
+        Yönetmen: <p id="director"></p>
+    </div>
+
+   
+    <script>
+
+
+        async function getMovieDetails() {
+            let response = await fetch("https://swapi.dev/api/films/1/"); // fetch bize Promise döndürür.
+            //Promise : js'nin asenkron fonksiyonudur 
+            if (response.ok) {
+                let json = await response.json();
+                showOnPage(json);
+                console.log(json);
+            } 
+
+        }
+
+        function showOnPage(film) {
+            document.getElementById('title').innerText = film.title;
+            document.getElementById('crawl').innerText = film.opening_crawl;
+            document.getElementById('director').innerText = film.director;
+
+        }
+
+
+    </script>
+
+
+
+</body>
+
+</html>
