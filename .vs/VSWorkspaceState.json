@@ -3,10 +3,11 @@
     "",
     "\\.Net",
     "\\.Net\\AdvancedFeatures",
-    "\\.Net\\AdvancedFeatures\\DelegatesAndEvents",
-    "\\.Net\\AdvancedFeatures\\DelegatesAndEvents\\Events",
-    "\\HTML-CSS-JS",
-    "\\HTML-CSS-JS\\IntroHTML"
+    "\\EF CORE",
+    "\\EF CORE\\introduceEFCore",
+    "\\EF CORE\\introduceEFCore\\introduceEFCore",
+    "\\EF CORE\\introduceEFCore\\introduceEFCore\\Data"
   ],
+  "SelectedNode": "\\EF CORE\\introduceEFCore\\introduceEFCore\\Data\\BookStoreDbContext.cs",
   "PreviewInSolutionExplorer": false
 }
