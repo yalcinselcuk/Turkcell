@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Movies.Entities
 {
-    public class Movie
+    public class Movie : IEntity
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
