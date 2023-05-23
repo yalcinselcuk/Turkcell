@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Movies.WinForms/1.0.0": {
+        "dependencies": {
+          "Movies.Application": "1.0.0"
+        },
+        "runtime": {
+          "Movies.WinForms.dll": {}
+        }
+      },
+      "Movies.Application/1.0.0": {
+        "dependencies": {
+          "Movies.Data": "1.0.0"
+        },
+        "runtime": {
+          "Movies.Application.dll": {}
+        }
+      },
+      "Movies.Data/1.0.0": {
+        "dependencies": {
+          "Movies.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Movies.Data.dll": {}
+        }
+      },
+      "Movies.Entities/1.0.0": {
+        "runtime": {
+          "Movies.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Movies.WinForms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Movies.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Movies.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Movies.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

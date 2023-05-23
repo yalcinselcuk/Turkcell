@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Movies.Data/1.0.0": {
+        "dependencies": {
+          "Movies.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Movies.Data.dll": {}
+        }
+      },
+      "Movies.Entities/1.0.0": {
+        "runtime": {
+          "Movies.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Movies.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Movies.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

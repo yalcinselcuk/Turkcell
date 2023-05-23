@@ -1,0 +1,12 @@
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\bin\Debug\net7.0\Movies.Entities.deps.json
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\bin\Debug\net7.0\Movies.Entities.dll
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\bin\Debug\net7.0\Movies.Entities.pdb
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\obj\Debug\net7.0\Movies.Entities.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\obj\Debug\net7.0\Movies.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\obj\Debug\net7.0\Movies.Entities.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\obj\Debug\net7.0\Movies.Entities.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\obj\Debug\net7.0\Movies.Entities.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\obj\Debug\net7.0\Movies.Entities.dll
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\obj\Debug\net7.0\refint\Movies.Entities.dll
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\obj\Debug\net7.0\Movies.Entities.pdb
+C:\Users\yalci\Desktop\Turkcell\EF CORE\Movies\Movies.Entities\obj\Debug\net7.0\ref\Movies.Entities.dll
