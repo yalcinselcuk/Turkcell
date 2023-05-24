@@ -1,0 +1,17 @@
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\bin\Debug\net7.0-windows\basicThread.exe
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\bin\Debug\net7.0-windows\basicThread.deps.json
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\bin\Debug\net7.0-windows\basicThread.runtimeconfig.json
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\bin\Debug\net7.0-windows\basicThread.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\bin\Debug\net7.0-windows\basicThread.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\basicThread.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\basicThread.Form1.resources
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\basicThread.csproj.GenerateResource.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\basicThread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\basicThread.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\basicThread.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\basicThread.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\basicThread.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\refint\basicThread.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\basicThread.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\basicThread.genruntimeconfig.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\basicThread\obj\Debug\net7.0-windows\ref\basicThread.dll
