@@ -33,22 +33,23 @@ namespace Movies.Application
             return movie.Id;
         }
 
-        public async Task UpdateMovie(UpdateMovieRequest updateMovie)
-        {
-            var movie = new Movie
-            {
-                DirectorId = updateMovie.DirectorId,
-                Duration = updateMovie.Duration,
-                Name = updateMovie.Name,
-                Poster = updateMovie.Poster,
-                PublishDate = updateMovie.PublishDate,
-                Rating = updateMovie.Rating
-            };
-            await movieRepository.UpdateAsync(movie);
-        }
-        public Task<IEnumerable<MovieListResponse>> GetAllMovies()
+        public Task UpdateMovie(UpdateMovieRequest updateMovie)
         {
             throw new NotImplementedException();
+        }
+        public async Task<IEnumerable<MovieListResponse>> GetAllMovies()
+        {
+            var movies = await movieRepository.GetAllAsync();
+            var response = movies.Select(m => new MovieListResponse
+            {
+                Duration = m.Duration,
+                Name = m.Name,
+                Id = m.Id,
+                Poster = m.Poster,
+                PublishDate = m.PublishDate,
+                Rating= m.Rating
+            });
+            return response;
         }
 
     }
