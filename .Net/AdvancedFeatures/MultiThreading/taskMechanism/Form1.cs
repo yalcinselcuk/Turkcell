@@ -8,7 +8,7 @@
             InitializeComponent();
         }
 
-        private async void buttonCounter_Click(object sender, EventArgs e)
+        private  async void buttonCounter_Click(object sender, EventArgs e)
         {
             await Task.Run(counter);
             MessageBox.Show("Bitti");

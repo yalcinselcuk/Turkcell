@@ -15,7 +15,7 @@ namespace Movies.Data.Repositories
         Task UpdateAsync(T entity);
         Task DeleteAsync(int id);
         Task<ICollection<T>> GetAllAsync();
-        Task<T> GetByIdAsync(int id);
+        Task<T?> GetByIdAsync(int id);
 
     }
 }

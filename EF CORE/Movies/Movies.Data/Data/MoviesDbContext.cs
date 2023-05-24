@@ -10,9 +10,9 @@ namespace Movies.Data.Data
 {
     public class MoviesDbContext : DbContext
     {
-        private DbSet<Movie> Movies { get; set; }
-        private DbSet<Director> Directors { get; set; }
-        private DbSet<Player> Players { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<Director> Directors { get; set; }
+        public DbSet<Player> Players { get; set; }
         //private DbSet<MoviesPlayer> MoviesPlayers { get; set; }
 
         public MoviesDbContext()
