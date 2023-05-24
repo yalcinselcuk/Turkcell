@@ -30,6 +30,8 @@
         {
             this.buttonCounter = new System.Windows.Forms.Button();
             this.labelCounter = new System.Windows.Forms.Label();
+            this.buttonShow = new System.Windows.Forms.Button();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // buttonCounter
@@ -50,11 +52,30 @@
             this.labelCounter.Size = new System.Drawing.Size(0, 20);
             this.labelCounter.TabIndex = 1;
             // 
+            // buttonShow
+            // 
+            this.buttonShow.Location = new System.Drawing.Point(573, 126);
+            this.buttonShow.Name = "buttonShow";
+            this.buttonShow.Size = new System.Drawing.Size(94, 29);
+            this.buttonShow.TabIndex = 2;
+            this.buttonShow.Text = "Göster";
+            this.buttonShow.UseVisualStyleBackColor = true;
+            this.buttonShow.Click += new System.EventHandler(this.buttonShow_Click);
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(196, 266);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(284, 29);
+            this.progressBar1.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.buttonShow);
             this.Controls.Add(this.labelCounter);
             this.Controls.Add(this.buttonCounter);
             this.Name = "Form1";
@@ -68,5 +89,7 @@
 
         private Button buttonCounter;
         private Label labelCounter;
+        private Button buttonShow;
+        private ProgressBar progressBar1;
     }
 }
