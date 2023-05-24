@@ -1,0 +1,17 @@
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\bin\Debug\net7.0-windows\taskMechanism.exe
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\bin\Debug\net7.0-windows\taskMechanism.deps.json
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\bin\Debug\net7.0-windows\taskMechanism.runtimeconfig.json
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\bin\Debug\net7.0-windows\taskMechanism.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\bin\Debug\net7.0-windows\taskMechanism.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\taskMechanism.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\taskMechanism.Form1.resources
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\taskMechanism.csproj.GenerateResource.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\taskMechanism.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\taskMechanism.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\taskMechanism.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\taskMechanism.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\taskMechanism.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\refint\taskMechanism.dll
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\taskMechanism.pdb
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\taskMechanism.genruntimeconfig.cache
+C:\Users\yalci\Desktop\Turkcell\.Net\AdvancedFeatures\MultiThreading\taskMechanism\obj\Debug\net7.0-windows\ref\taskMechanism.dll
