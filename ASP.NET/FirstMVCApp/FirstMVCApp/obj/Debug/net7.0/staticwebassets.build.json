@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "gZtpoocUNdI2PvUzA3iOJ0LW/82oqIzfjpkKOf1CyC4=",
+  "Hash": "Ai/6r5qOj8VJSksj4h3v+35F/aNehI9+InLBCU5MHIE=",
   "Source": "FirstMVCApp",
   "BasePath": "_content/FirstMVCApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "FirstMVCApp\\wwwroot",
+      "Source": "FirstMVCApp",
+      "ContentRoot": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\FirstMVCApp\\FirstMVCApp\\wwwroot\\",
+      "BasePath": "_content/FirstMVCApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\FirstMVCApp\\FirstMVCApp\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "SourceId": "FirstMVCApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\FirstMVCApp\\FirstMVCApp\\wwwroot\\",
+      "BasePath": "_content/FirstMVCApp",
+      "RelativePath": "bootstrap/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\FirstMVCApp\\FirstMVCApp\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "SourceId": "FirstMVCApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\FirstMVCApp\\FirstMVCApp\\wwwroot\\",
+      "BasePath": "_content/FirstMVCApp",
+      "RelativePath": "bootstrap/js/bootstrap.bundle.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js"
+    }
+  ]
 }

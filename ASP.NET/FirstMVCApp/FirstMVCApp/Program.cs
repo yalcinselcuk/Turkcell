@@ -1,4 +1,4 @@
-namespace FirstMVCApp
+﻿namespace FirstMVCApp
 {
     public class Program
     {
@@ -13,7 +13,15 @@ namespace FirstMVCApp
             //app.MapGet("/", () => message);
 
             app.UseRouting();
-            app.UseEndpoints(endpoints => endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}"));
+            //app.UseEndpoints(endpoints => endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}"));
+
+            //daha evrenselini kullanalım;
+            app.UseStaticFiles();
+            app.MapControllerRoute("default","{controller=Home}/{action=Index}/{id?}");
+
+            //app.Use... ==> Use ile başlayanların hepsi MiddleWare'dır.
+            //MiddleWare : gelen tüm request'leri tutup yönlendirir.
+            //Middleware 'lerin arasında sıralama vardır = pipeline
 
             app.Run();
         }
