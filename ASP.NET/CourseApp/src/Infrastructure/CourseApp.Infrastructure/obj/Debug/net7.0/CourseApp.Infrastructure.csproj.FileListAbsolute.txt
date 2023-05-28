@@ -1,0 +1,15 @@
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\bin\Debug\net7.0\CourseApp.Infrastructure.deps.json
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\bin\Debug\net7.0\CourseApp.Infrastructure.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\bin\Debug\net7.0\CourseApp.Infrastructure.pdb
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\bin\Debug\net7.0\CourseApp.Entities.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\bin\Debug\net7.0\CourseApp.Entities.pdb
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\CourseApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\CourseApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\CourseApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\CourseApp.Infrastructure.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\CourseApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\CourseApp.Infrastructure.csproj.CopyComplete
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\CourseApp.Infrastructure.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\refint\CourseApp.Infrastructure.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\CourseApp.Infrastructure.pdb
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\ref\CourseApp.Infrastructure.dll

@@ -1,0 +1,12 @@
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\bin\Debug\net7.0\CourseApp.Entities.deps.json
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\bin\Debug\net7.0\CourseApp.Entities.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\bin\Debug\net7.0\CourseApp.Entities.pdb
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\obj\Debug\net7.0\CourseApp.Entities.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\obj\Debug\net7.0\CourseApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\obj\Debug\net7.0\CourseApp.Entities.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\obj\Debug\net7.0\CourseApp.Entities.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\obj\Debug\net7.0\CourseApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\obj\Debug\net7.0\CourseApp.Entities.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\obj\Debug\net7.0\refint\CourseApp.Entities.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\obj\Debug\net7.0\CourseApp.Entities.pdb
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Domains\CourseApp.Entities\obj\Debug\net7.0\ref\CourseApp.Entities.dll

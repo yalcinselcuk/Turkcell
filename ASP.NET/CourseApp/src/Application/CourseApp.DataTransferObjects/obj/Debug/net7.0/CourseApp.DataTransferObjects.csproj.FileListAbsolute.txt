@@ -1,0 +1,12 @@
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\bin\Debug\net7.0\CourseApp.DataTransferObjects.deps.json
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\bin\Debug\net7.0\CourseApp.DataTransferObjects.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\bin\Debug\net7.0\CourseApp.DataTransferObjects.pdb
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\obj\Debug\net7.0\CourseApp.DataTransferObjects.csproj.AssemblyReference.cache
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\obj\Debug\net7.0\CourseApp.DataTransferObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\obj\Debug\net7.0\CourseApp.DataTransferObjects.AssemblyInfoInputs.cache
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\obj\Debug\net7.0\CourseApp.DataTransferObjects.AssemblyInfo.cs
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\obj\Debug\net7.0\CourseApp.DataTransferObjects.csproj.CoreCompileInputs.cache
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\obj\Debug\net7.0\CourseApp.DataTransferObjects.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\obj\Debug\net7.0\refint\CourseApp.DataTransferObjects.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\obj\Debug\net7.0\CourseApp.DataTransferObjects.pdb
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Application\CourseApp.DataTransferObjects\obj\Debug\net7.0\ref\CourseApp.DataTransferObjects.dll

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/aDlSssEM+2qBLLBobEV3Nyo339zr7BH3um0YPETXs/Ap429AvEo9yMJSI0T0fZ+A0U79pjZ/csW9/4SU+gDmg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\Application\\CourseApp.Services\\CourseApp.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yalci\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\yalci\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
