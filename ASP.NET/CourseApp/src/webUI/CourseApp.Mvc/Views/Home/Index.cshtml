@@ -1,20 +1,21 @@
 ﻿@model IEnumerable<CourseDisplayResponse>
 @{
     ViewData["Title"] = "Home Page";
+    var columnCount = 0;
 }
 
-<div class="row">
+<div class="row m-2 mb-1">
     @foreach (var courseDisplay in Model)
     {
+        @if (columnCount != 0 && columnCount % 4 == 0)
+        {
+            @:</div><div class="row m-2 mb-1">
+            columnCount = 0;
+        }            
         <div class="col-3">
-            <div class="card">
-                <img src="@courseDisplay.ImageUrl" class="img-fluid">
-                <div class="card-body">
-                    <h4 class="card-title">@courseDisplay.Name</h4>
-                    <p class="card-text">@courseDisplay.Description</p>
-                    <p class="card-text">@courseDisplay.Price</p>
-                </div>
-            </div>
+           <partial name="_CourseDisplay" model="courseDisplay"/>
+           <!-- buradaki modeli _CourseDisplay modeline göndericez -->
         </div>
+        columnCount += 1;
     }
 </div>
