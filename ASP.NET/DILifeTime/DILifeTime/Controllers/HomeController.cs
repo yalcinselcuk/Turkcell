@@ -7,14 +7,22 @@ namespace DILifeTime.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ISingletonGuid singletonGuid;
+        private readonly ITransientGuid transientGuid;
+        private readonly IScopedGuid scopedGuid;
+        public HomeController(ILogger<HomeController> logger, ISingletonGuid singletonGuid, ITransientGuid transientGuid, IScopedGuid scopedGuid)
         {
             _logger = logger;
+            this.singletonGuid = singletonGuid;
+            this.transientGuid = transientGuid;
+            this.scopedGuid = scopedGuid;
         }
 
         public IActionResult Index()
         {
+            ViewBag.SingletonGuid = singletonGuid.Guid.ToString();
+            ViewBag.TransientGuid = transientGuid.Guid.ToString();
+            ViewBag.ScopedGuid = scopedGuid.Guid.ToString();
             return View();
         }
 
