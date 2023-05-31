@@ -42,4 +42,17 @@
             Guid = Guid.NewGuid();
         }
     }
+    public class GuidService
+    {
+        public ISingletonGuid SingletonGuid { get; set; }
+        public ITransientGuid TransientGuid { get; set; }
+        public IScopedGuid ScopedGuid { get; set; }
+
+        public GuidService(ISingletonGuid SingletonGuid, ITransientGuid TransientGuid, IScopedGuid ScopedGuid)
+        {
+            this.SingletonGuid = SingletonGuid;
+            this.TransientGuid = TransientGuid;
+            this.ScopedGuid = ScopedGuid;
+        }
+    }
 }

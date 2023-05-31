@@ -9,6 +9,8 @@ builder.Services.AddSingleton<ISingletonGuid, SingletonGuid>();
 builder.Services.AddTransient<ITransientGuid, TransientGuid>();
 builder.Services.AddScoped<IScopedGuid, ScopedGuid>();
 
+builder.Services.AddTransient<GuidService>();//transient seçtik daha iyi görebilmek için
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
