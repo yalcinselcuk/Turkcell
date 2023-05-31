@@ -21,6 +21,7 @@ namespace DILifeTime.Controllers
         public IActionResult Index()
         {
             ViewBag.SingletonGuid = singletonGuid.Guid.ToString();
+            //Constructor bir kere çalıştı, singleton'ı üretti ve üretmedi proje boyunca.Hep aynı instance'ı kullandı
             ViewBag.TransientGuid = transientGuid.Guid.ToString();
             ViewBag.ScopedGuid = scopedGuid.Guid.ToString();
             return View();
