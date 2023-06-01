@@ -39,6 +39,7 @@ namespace CourseApp.Mvc.Controllers
                                           .Skip((pageNo-1)*coursePerPage)
                                           .Take(coursePerPage)
                                           .ToList();
+            ViewBag.PageNo = pageNo;
 
             return View(paginatedCourses);
         }
