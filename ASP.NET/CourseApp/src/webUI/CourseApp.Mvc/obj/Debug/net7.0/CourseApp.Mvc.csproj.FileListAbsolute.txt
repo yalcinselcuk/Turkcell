@@ -40,3 +40,4 @@ C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\webUI\CourseApp.Mvc\obj\De
 C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\webUI\CourseApp.Mvc\obj\Debug\net7.0\CourseApp.Mvc.pdb
 C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\webUI\CourseApp.Mvc\obj\Debug\net7.0\CourseApp.Mvc.genruntimeconfig.cache
 C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\webUI\CourseApp.Mvc\obj\Debug\net7.0\ref\CourseApp.Mvc.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\webUI\CourseApp.Mvc\bin\Debug\net7.0\libman.json

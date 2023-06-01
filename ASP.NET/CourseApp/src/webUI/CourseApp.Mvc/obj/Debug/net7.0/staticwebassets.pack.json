@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\CourseApp.Mvc.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\.package-lock.json",
+      "PackagePath": "staticwebassets\\.package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\AlertifyJS\\alertify.min.js",
+      "PackagePath": "staticwebassets\\AlertifyJS\\alertify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\AlertifyJS\\css\\alertify.min.css",
+      "PackagePath": "staticwebassets\\AlertifyJS\\css\\alertify.min.css"
+    },
+    {
       "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -243,6 +255,62 @@
     {
       "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\.gitattributes",
+      "PackagePath": "staticwebassets\\toastify-js\\.gitattributes"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\.prettierrc",
+      "PackagePath": "staticwebassets\\toastify-js\\.prettierrc"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\.travis.yml",
+      "PackagePath": "staticwebassets\\toastify-js\\.travis.yml"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\toastify-js\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\LICENSE",
+      "PackagePath": "staticwebassets\\toastify-js"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\README.md",
+      "PackagePath": "staticwebassets\\toastify-js\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\example\\pattern.png",
+      "PackagePath": "staticwebassets\\toastify-js\\example\\pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\example\\script.css",
+      "PackagePath": "staticwebassets\\toastify-js\\example\\script.css"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\example\\script.js",
+      "PackagePath": "staticwebassets\\toastify-js\\example\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\index.html",
+      "PackagePath": "staticwebassets\\toastify-js\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\package.json",
+      "PackagePath": "staticwebassets\\toastify-js\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\src\\toastify-es.js",
+      "PackagePath": "staticwebassets\\toastify-js\\src\\toastify-es.js"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\src\\toastify.css",
+      "PackagePath": "staticwebassets\\toastify-js\\src\\toastify.css"
+    },
+    {
+      "Id": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\wwwroot\\toastify-js\\src\\toastify.js",
+      "PackagePath": "staticwebassets\\toastify-js\\src\\toastify.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CourseApp.Mvc.Microsoft.AspNetCore.StaticWebAssets.props",

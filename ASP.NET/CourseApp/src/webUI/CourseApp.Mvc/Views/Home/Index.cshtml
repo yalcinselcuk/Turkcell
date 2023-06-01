@@ -10,7 +10,8 @@
         @if (columnCount != 0 && columnCount % 4 == 0)
         {
             @:</div><div class="row m-2 mb-1">
-        }            
+        }       
+        <!-- burada ürünler görünüyor-->
         <div class="col-3">
            <partial name="_CourseDisplay" model="courseDisplay"/>
            <!-- buradaki modeli _CourseDisplay modeline göndericez -->
@@ -30,3 +31,67 @@
 *@
 
 <div page-model="Model.PaginationInfo" page-action="Index"></div>
+
+
+<!-- Bootstrap'ten alınan toast mesaj ama script'ekini kullanıcam-->
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+@*      <img src="..." class="rounded me-2" alt="...">
+*@      <strong class="me-auto">Sepet Bilgisi</strong>
+      <small>Şimdi</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Layout'taki jquery'i kullanmamız lazım butona basıldığını algılamamız için-->
+<!-- bunun için de bir script yazıcaz. Bunu da _Layout/RenderSectionAsync'daki Script'ten anlıyoruz-->
+@section Scripts{
+    <script>
+        $(document).ready(function(){/*hazır olduğunda fonksiyon çalıştır dedik*/
+            $('.basket').on('click', function(){//basket isimli class olan butona tıklandığında
+                let id = $(this).data('urunid');//data'sında urunid olanı al 
+                $.ajax({
+                    url:'/Shopping/AddCourse/'+id,
+                    type:'GET',
+                    success : function(data){
+                        //console.log(data)
+
+                        //bootstrap'li toastMessage
+                        //$('.toast-body').text(data.message);
+                        //const toastLiveExample = document.getElementById('liveToast');
+                        //const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
+                        //toastBootstrap.show();
+
+                        
+                        Toastify({
+                          text: data.message,
+                          duration: 3000,
+                          destination: "https://github.com/apvarun/toastify-js",
+                          newWindow: true,
+                          close: true,
+                          gravity: "top", // `top` or `bottom`
+                          position: "right", // `left`, `center` or `right`
+                          stopOnFocus: true, // Prevents dismissing of toast on hover
+                          style: {
+                            background: "linear-gradient(to right, #00b09b, #96c93d)",
+                          },
+                          onClick: function(){} // Callback after click
+                        }).showToast();
+
+                        alertify.success(data.message);
+                    },
+                    error:function(error){
+                        console.log('hata', error)
+                        alertify.error(error);
+                    }
+                });
+            });
+        });
+    </script>
+}

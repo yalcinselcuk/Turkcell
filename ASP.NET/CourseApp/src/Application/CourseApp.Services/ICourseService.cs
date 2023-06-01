@@ -9,6 +9,7 @@ namespace CourseApp.Services
 {
     public interface ICourseService
     {
+        CourseDisplayResponse GetCourse(int id);
         IEnumerable<CourseDisplayResponse> GetCourseDisplayResponse();
         IEnumerable<CourseDisplayResponse> GetCoursesByCategory(int categoryId);
     }
