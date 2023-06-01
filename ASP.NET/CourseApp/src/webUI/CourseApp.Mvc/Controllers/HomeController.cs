@@ -33,15 +33,27 @@ namespace CourseApp.Mvc.Controllers
             var coursePerPage = 8;
             var courseCount = courses.Count();
             var totalPage = Math.Ceiling((decimal)courseCount / coursePerPage);//yukarıya tamamladık 105 yerine 106 olursa, her sayfaya 5 tane olursa diye eksik sayfa olmasın
-            ViewBag.TotalPage = totalPage;
+
+            var paginationInfo = new PaginationInfo
+            {
+                CurrentPage = pageNo,
+                ItemsPerPage = 8,
+                TotalItems = courseCount
+            };
+
 
             var paginatedCourses = courses.OrderBy(c => c.Id)
-                                          .Skip((pageNo-1)*coursePerPage)
+                                          .Skip((pageNo - 1) * coursePerPage)
                                           .Take(coursePerPage)
                                           .ToList();
-            ViewBag.PageNo = pageNo;
 
-            return View(paginatedCourses);
+            var model = new PaginationCourseViewModel
+            {
+                Courses = paginatedCourses,
+                PaginationInfo = paginationInfo
+            };
+
+            return View(model);
         }
 
         public IActionResult Privacy()

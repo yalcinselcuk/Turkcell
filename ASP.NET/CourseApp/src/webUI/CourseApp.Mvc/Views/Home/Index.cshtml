@@ -1,11 +1,11 @@
-﻿@model IEnumerable<CourseDisplayResponse>
+﻿@model PaginationCourseViewModel
 @{
     ViewData["Title"] = "Home Page";
     var columnCount = 0;
 }
 
 <div class="row m-2 mb-1">
-    @foreach (var courseDisplay in Model)
+    @foreach (var courseDisplay in Model.Courses) //Courses = yeni modeldeki instance
     {
         @if (columnCount != 0 && columnCount % 4 == 0)
         {
@@ -18,7 +18,7 @@
         columnCount += 1;
     }
 </div>
-<div> 
+@*<div> 
   <ul class="pagination justify-content-center">
     
     @for (int i = 1; i <= ViewBag.TotalPage; i++)
@@ -27,3 +27,6 @@
         }
   </ul>
 </div>
+*@
+
+<div page-model="Model.PaginationInfo" page-action="Index"></div>
