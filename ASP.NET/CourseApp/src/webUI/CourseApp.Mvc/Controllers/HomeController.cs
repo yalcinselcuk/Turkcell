@@ -15,9 +15,12 @@ namespace CourseApp.Mvc.Controllers
             _courseService = courseService;
         }
 
-        public IActionResult Index(int pageNo = 1)
+        public IActionResult Index(int pageNo = 1, int? categoryId = null)//category boş da dönebilir diye null ekledik
         {
-            var courses = _courseService.GetCourseDisplayResponse();
+            var courses = categoryId == null ?  _courseService.GetCourseDisplayResponse() : _courseService.GetCoursesByCategory(categoryId.Value);
+            // id sıfırsa demek ki bir category yok, normal çalışacak (yani GetCourseDisplayResponse)
+            // ama değilse o zaman GetCourseByCategory çalışır 
+            
             /*
                 1.sayfa : 0 eleman atla, 8 eleman al
                 2.sayfa : 8 eleman atla, 8 eleman al 
@@ -37,7 +40,7 @@ namespace CourseApp.Mvc.Controllers
             var paginationInfo = new PaginationInfo
             {
                 CurrentPage = pageNo,
-                ItemsPerPage = 8,
+                ItemsPerPage = coursePerPage,
                 TotalItems = courseCount
             };
 

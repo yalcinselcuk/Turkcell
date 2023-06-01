@@ -19,9 +19,5 @@ namespace CourseApp.Services.Extensions
         {
             return mapper.Map<IEnumerable<CourseDisplayResponse>>(courses);
         }
-        public static IEnumerable<CategoryDisplayResponse> ConvertToCategoryDisplayResponses(this IEnumerable<Category> categories, IMapper mapper)
-        {
-            return mapper.Map<IEnumerable<CategoryDisplayResponse>>(categories);
-        }
     }
 }

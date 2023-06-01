@@ -25,5 +25,12 @@ namespace CourseApp.Services
             var response = courses.ConvertToDisplayResponses(_mapper);
             return response;
         }
+
+        public IEnumerable<CourseDisplayResponse> GetCoursesByCategory(int categoryId)
+        {
+            var courses = CourseRepository.GetCourseByCategory(categoryId);
+            var response = courses.ConvertToDisplayResponses(_mapper);
+            return response;
+        }
     }
 }

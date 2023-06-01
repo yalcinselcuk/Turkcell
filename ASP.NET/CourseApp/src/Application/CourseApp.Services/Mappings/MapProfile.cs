@@ -14,7 +14,6 @@ namespace CourseApp.Services.Mappings
         public MapProfile() 
         {
             CreateMap<Course, CourseDisplayResponse>();
-            CreateMap<Category, CategoryDisplayResponse>();
         }
     }
 }
