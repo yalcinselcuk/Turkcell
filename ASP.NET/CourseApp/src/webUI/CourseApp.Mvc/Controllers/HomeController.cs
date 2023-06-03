@@ -15,9 +15,9 @@ namespace CourseApp.Mvc.Controllers
             _courseService = courseService;
         }
 
-        public IActionResult Index(int pageNo = 1, int? categoryId = null)//category boş da dönebilir diye null ekledik
+        public IActionResult Index(int pageNo = 1, int? id = null)//category boş da dönebilir diye null ekledik
         {
-            var courses = categoryId == null ?  _courseService.GetCourseDisplayResponse() : _courseService.GetCoursesByCategory(categoryId.Value);
+            var courses = id == null ?  _courseService.GetCourseDisplayResponse() : _courseService.GetCoursesByCategory(id.Value);
             // id sıfırsa demek ki bir category yok, normal çalışacak (yani GetCourseDisplayResponse)
             // ama değilse o zaman GetCourseByCategory çalışır 
             
@@ -33,7 +33,7 @@ namespace CourseApp.Mvc.Controllers
                 -toplam kaç kurs var
              */
 
-            var coursePerPage = 8;
+            var coursePerPage = 4;
             var courseCount = courses.Count();
             var totalPage = Math.Ceiling((decimal)courseCount / coursePerPage);//yukarıya tamamladık 105 yerine 106 olursa, her sayfaya 5 tane olursa diye eksik sayfa olmasın
 

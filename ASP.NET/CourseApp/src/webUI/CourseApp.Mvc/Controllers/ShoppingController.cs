@@ -1,6 +1,8 @@
 ﻿using CourseApp.DataTransferObjects.Responses;
+using CourseApp.Mvc.Models;
 using CourseApp.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace CourseApp.Mvc.Controllers
 {
@@ -19,7 +21,35 @@ namespace CourseApp.Mvc.Controllers
         public IActionResult AddCourse(int id)
         {
             CourseDisplayResponse selectedCourse = courseService.GetCourse(id);
+
+            var courseItem = new CourseItem { Course = selectedCourse, Quantity = 1 };
+            CourseCollection courseCollection = getCourseCollectionFromSession();
+            courseCollection.AddNewCourse(courseItem);
+            saveToSession(courseCollection);
+
             return Json(new { message = $"{selectedCourse.Name} Sepete Eklendi " });
         }
+
+        private CourseCollection getCourseCollectionFromSession()
+        {
+            var serializedString = HttpContext.Session.GetString("sepetim");
+            //ilk kez sepete kurs ekleniyorsa serializedstring boş olacak
+            if (serializedString == null)//sepete ilk defa bir şey ekleniyor, sepet oluşmamış 
+            {
+                return new CourseCollection();// yeni bir instance oluştur
+            }
+            // içine girmezse demek ki önceden "sepetim" diye bir session oluşmuş ve içine bir şey atılmış
+            var collection = JsonSerializer.Deserialize<CourseCollection>(serializedString);// geri serileştir
+            return collection;
+        }
+        private void saveToSession(CourseCollection courseCollection)
+        {
+            var serialized = JsonSerializer.Serialize<CourseCollection>(courseCollection);
+            if (!string.IsNullOrWhiteSpace(serialized)) //serialized değilse
+            {
+                HttpContext.Session.SetString("sepetim", serialized);
+            }
+        }
+
     }
 }
