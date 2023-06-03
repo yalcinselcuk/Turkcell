@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CourseApp.DataTransferObjects.Requests;
 using CourseApp.DataTransferObjects.Responses;
 using CourseApp.Entities;
 using System;
@@ -15,6 +16,7 @@ namespace CourseApp.Services.Mappings
         {
             CreateMap<Course, CourseDisplayResponse>();
             CreateMap<Category, CategoryDisplayResponse>();
+            CreateMap<CreateNewCourseRequest, Course>();
         }
     }
 }
