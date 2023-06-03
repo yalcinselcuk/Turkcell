@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zM7XgEIYTsu83wE9XMw/u42H0wo3fS0uOg/uXYZYX59xFCRYdrGVRKCd8DhMQmqyMRPSDE0DhLFjgeuALBNlkQ==",
+  "dgSpecHash": "3dYXhuZzneOwOZjAH8a6y//PPiGC3uZNF8ADjFJSALce4AAvgT5/DnSPeFLabj/rm3B7HfIj5DCqLgr3CkA2Ow==",
   "success": true,
   "projectFilePath": "C:\\Users\\yalci\\Desktop\\Turkcell\\ASP.NET\\CourseApp\\src\\webUI\\CourseApp.Mvc\\CourseApp.Mvc.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\yalci\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\yalci\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\yalci\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\yalci\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\7.0.5\\microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\yalci\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\yalci\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\yalci\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

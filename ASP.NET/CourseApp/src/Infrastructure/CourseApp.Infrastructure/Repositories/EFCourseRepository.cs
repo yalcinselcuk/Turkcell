@@ -62,7 +62,7 @@ namespace CourseApp.Infrastructure.Repositories
 
         public IEnumerable<Course> GetCoursesByName(string name)
         {
-            return courseDbContext.Courses.AsNoTracking().Where(c => c.CategoryId == categoryId).AsEnumerable();
+            return courseDbContext.Courses.AsNoTracking().Where(c => c.Name.Contains(name)).AsEnumerable();
 
         }
 

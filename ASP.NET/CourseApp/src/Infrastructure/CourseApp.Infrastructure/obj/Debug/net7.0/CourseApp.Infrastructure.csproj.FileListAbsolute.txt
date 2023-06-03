@@ -13,3 +13,5 @@ C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.I
 C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\refint\CourseApp.Infrastructure.dll
 C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\CourseApp.Infrastructure.pdb
 C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\ref\CourseApp.Infrastructure.dll
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\bin\Debug\net7.0\CourseApp.Infrastructure.runtimeconfig.json
+C:\Users\yalci\Desktop\Turkcell\ASP.NET\CourseApp\src\Infrastructure\CourseApp.Infrastructure\obj\Debug\net7.0\CourseApp.Infrastructure.genruntimeconfig.cache
