@@ -16,7 +16,8 @@ namespace CourseApp.Mvc.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var courseCollection = getCourseCollectionFromSession();
+            return View(courseCollection);
         }
         public IActionResult AddCourse(int id)
         {
