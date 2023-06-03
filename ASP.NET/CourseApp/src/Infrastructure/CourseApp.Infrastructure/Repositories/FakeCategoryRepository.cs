@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,6 +20,17 @@ namespace CourseApp.Infrastructure.Repositories
                     new Category{Id=3, CategoryName="Philosophy"}
                 };
         }
+
+        public Task CreateAsync(Category entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task DeleteAync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public Category? Get(int id)
         {
             throw new NotImplementedException();
@@ -34,7 +46,22 @@ namespace CourseApp.Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
+        public IList<Category> GetAllWithPredicate(Expression<Func<Category, bool>> predicate)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<Category?> GetAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Category?> UpdateAsync(Category entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRepository<Category>.UpdateAsync(Category entity)
         {
             throw new NotImplementedException();
         }

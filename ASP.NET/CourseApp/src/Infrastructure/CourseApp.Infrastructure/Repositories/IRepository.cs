@@ -14,6 +14,12 @@ namespace CourseApp.Infrastructure.Repositories
         Task<T?> GetAsync(int id);
         IList<T?> GetAll();
         Task<IList<T?>> GetAllAsync();
+
+        IList<T> GetAllWithPredicate(Expression<Func<T, bool>> predicate);
+
+        Task CreateAsync(T entity); 
+        Task UpdateAsync(T entity);
+        Task DeleteAync(int id);
         
     }
 }

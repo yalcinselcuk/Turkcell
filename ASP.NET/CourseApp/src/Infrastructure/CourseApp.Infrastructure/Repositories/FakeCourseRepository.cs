@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -42,6 +43,17 @@ namespace CourseApp.Infrastructure.Repositories
 
             };
         }
+
+        public Task CreateAsync(Course entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task DeleteAync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public Course? Get(int id)
         {
             return _courses.Find(c => c.Id == id);
@@ -57,6 +69,11 @@ namespace CourseApp.Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
+        public IList<Course> GetAllWithPredicate(Expression<Func<Course, bool>> predicate)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<Course?> GetAsync(int id)
         {
             throw new NotImplementedException();
@@ -68,6 +85,16 @@ namespace CourseApp.Infrastructure.Repositories
         }
 
         public IEnumerable<Course> GetCoursesByName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Course?> UpdateAsync(Course entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRepository<Course>.UpdateAsync(Course entity)
         {
             throw new NotImplementedException();
         }
