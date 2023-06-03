@@ -1,4 +1,5 @@
 ﻿@model CourseCollection
+
 @{
     ViewData["Title"] = "Index";
 }
@@ -16,32 +17,24 @@ else
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>
-                    Kurs Adı
-                </th>
-                <th>
-                    Fiyatı
-                </th>
-                <th>
-                    Adet
-                </th>
-                <th>
-                    Ara Toplam
-                </th>
+                <th>Kurs Adı</th>
+                <th>Fiyatı</th>
+                <th>Adet</th>
+                <th>Ara Toplam</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model.CourseItems)
             {
                 <tr>
-                    <td>@item.Course.Name</td>
+                <td>@item.Course.Name</td>
 
-                    <td>@item.Course.Price</td>
+                <td>@item.Course.Price</td>
 
-                    <td>@item.Quantity</td>
+                <td>@item.Quantity</td>
 
-                    <td>@(item.Quantity * item.Course.Price)</td>
-                </tr>
+                <td>@(item.Quantity * item.Course.Price)</td>
+            </tr>
             }
         </tbody>
         <tfoot>
@@ -50,5 +43,4 @@ else
             </tr>
         </tfoot>
     </table>
-
 }
