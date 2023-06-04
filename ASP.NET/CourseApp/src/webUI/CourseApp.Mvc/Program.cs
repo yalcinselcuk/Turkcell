@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CourseApp.Infrastructure.Data;
 using CourseApp.Infrastructure.Repositories;
+using CourseApp.Mvc.Extensions;
 using CourseApp.Services;
 using CourseApp.Services.Mappings;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -10,11 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<ICourseService, CourseService>();//calisacaği servisi söyledik
-builder.Services.AddScoped<ICourseRepository, EFCourseRepository>();
-builder.Services.AddScoped<ICategoryService, CategoryService>();
-builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
-builder.Services.AddScoped<IUserService, UserService>();
+
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
 builder.Services.AddSession(opt =>
@@ -23,7 +20,7 @@ builder.Services.AddSession(opt =>
 }
 );
 var connectionString = builder.Configuration.GetConnectionString("db");
-builder.Services.AddDbContext<CourseDbContext>(option => option.UseSqlServer(connectionString));
+builder.Services.AddInjections(connectionString);
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();//migration'da oluşabilecek hataları döndürür
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
