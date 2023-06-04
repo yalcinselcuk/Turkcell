@@ -3,6 +3,7 @@ using CourseApp.Infrastructure.Data;
 using CourseApp.Infrastructure.Repositories;
 using CourseApp.Services;
 using CourseApp.Services.Mappings;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,7 @@ builder.Services.AddScoped<ICourseService, CourseService>();//calisacaği servis
 builder.Services.AddScoped<ICourseRepository, EFCourseRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
 builder.Services.AddSession(opt =>
@@ -23,6 +25,14 @@ builder.Services.AddSession(opt =>
 var connectionString = builder.Configuration.GetConnectionString("db");
 builder.Services.AddDbContext<CourseDbContext>(option => option.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();//migration'da oluşabilecek hataları döndürür
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(opt =>
+                {
+                    opt.LoginPath = "/Users/Login"; 
+                    opt.AccessDeniedPath = "/Users/AccessDenied";
+                    opt.ReturnUrlParameter = "gidilecekSayfa";
+                });
 
 var app = builder.Build();
 
