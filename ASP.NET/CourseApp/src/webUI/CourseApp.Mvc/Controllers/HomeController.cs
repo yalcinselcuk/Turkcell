@@ -1,6 +1,9 @@
-﻿using CourseApp.Mvc.Models;
+﻿using CourseApp.DataTransferObjects.Responses;
+using CourseApp.Mvc.CacheTools;
+using CourseApp.Mvc.Models;
 using CourseApp.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using System.Diagnostics;
 
 namespace CourseApp.Mvc.Controllers
@@ -9,18 +12,20 @@ namespace CourseApp.Mvc.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly ICourseService _courseService;
-        public HomeController(ILogger<HomeController> logger, ICourseService courseService)
+        private readonly IMemoryCache _memoryCache;
+        public HomeController(ILogger<HomeController> logger, ICourseService courseService, IMemoryCache memoryCache)
         {
             _logger = logger;
             _courseService = courseService;
+            _memoryCache = memoryCache;
         }
 
         public IActionResult Index(int pageNo = 1, int? id = null)//category boş da dönebilir diye null ekledik
         {
-            var courses = id == null ?  _courseService.GetCourseDisplayResponse() : _courseService.GetCoursesByCategory(id.Value);
+            IEnumerable<CourseDisplayResponse> courses = GetCoursesMemoryCacheOrDb(id);
             // id sıfırsa demek ki bir category yok, normal çalışacak (yani GetCourseDisplayResponse)
             // ama değilse o zaman GetCourseByCategory çalışır 
-            
+
             /*
                 1.sayfa : 0 eleman atla, 8 eleman al
                 2.sayfa : 8 eleman atla, 8 eleman al 
@@ -57,6 +62,28 @@ namespace CourseApp.Mvc.Controllers
             };
 
             return View(model);
+        }
+
+        private IEnumerable<CourseDisplayResponse> GetCoursesMemoryCacheOrDb(int? id)
+        {
+            //eğer cache'ta varsa cache'ten çek, yoksa kaynaktan çek cache'e at
+            if (!_memoryCache.TryGetValue("allCourses", out CacheDataInfo cacheDataInfo))
+            {
+                var options = new MemoryCacheEntryOptions()
+                                  .SetSlidingExpiration(TimeSpan.FromMinutes(1))
+                                  .SetPriority(CacheItemPriority.Normal);
+                cacheDataInfo = new CacheDataInfo
+                {
+                    CacheTime = DateTime.Now,
+                    Courses = _courseService.GetCourseDisplayResponse()
+                };
+                _memoryCache.Set("allCourses", cacheDataInfo, options);
+            }
+
+            _logger.LogInformation($"{cacheDataInfo.CacheTime.ToLongTimeString()} anındaki cache'i görmektesiniz");
+
+            return id == null ? cacheDataInfo.Courses :
+                                _courseService.GetCoursesByCategory(id.Value);
         }
 
         public IActionResult Privacy()
