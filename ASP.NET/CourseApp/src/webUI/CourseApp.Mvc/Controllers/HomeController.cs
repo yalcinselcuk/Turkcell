@@ -86,8 +86,11 @@ namespace CourseApp.Mvc.Controllers
                                 _courseService.GetCoursesByCategory(id.Value);
         }
 
-        public IActionResult Privacy()
+        [ResponseCache(Duration =70, VaryByQueryKeys = new[] {"id"}, Location =ResponseCacheLocation.Client)]
+        public IActionResult Privacy(int id)
         {
+            ViewBag.Id = id;
+            ViewBag.DateTime = DateTime.Now;
             return View();
         }
 

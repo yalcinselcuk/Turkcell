@@ -32,6 +32,10 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
                 });
 
 builder.Services.AddMemoryCache();
+builder.Services.AddResponseCaching(opt =>
+{
+    opt.SizeLimit = 100000;
+});//evrensel cache'tir: doğrudan html çıktısını bellekte tutulması gerektiğini belirtir
 
 var app = builder.Build();
 
@@ -50,6 +54,7 @@ context.Database.EnsureCreated();
 DbSeeding.SeedDatabase(context);
 
 app.UseHttpsRedirection();
+app.UseResponseCaching();
 app.UseStaticFiles();
 
 app.UseSession();
