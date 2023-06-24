@@ -11,17 +11,39 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+app.Use(async(context, next) =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    await context.Response.WriteAsync("---");
+    await next();//bir sonraki middleware'e gönderdik, yani aşağıya
+    await context.Response.WriteAsync("---");//bir daha buraya dönüyorsa bunu döndürecek
+});
 
-app.UseHttpsRedirection();
+app.Use(async (context, next) =>
+{
+    await context.Response.WriteAsync(">>>");
+    await next();//bir sonraki middleware'e gönderdik
+    await context.Response.WriteAsync("<<<");//bir daha buraya dönüyorsa bunu döndürecek
+});
 
-app.UseAuthorization();
+//Http'den gelen bütün request'leri yakalaması için temsilen "context" dedik
+//her yapılan işlem bşr middleware olduğundan context'ten sonra bir sonraki middleware'e göndermemiz gerekir
+//onu da temsilen "next" diyoruz
 
-app.MapControllers();
+// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
 
+//app.UseHttpsRedirection();
+
+//app.UseAuthorization();
+
+//app.MapControllers();
+
+app.Run(async context =>
+{
+    await context.Response.WriteAsync("Bunu middleware yazdı");
+});
 app.Run();
